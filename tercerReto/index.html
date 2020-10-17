@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1>TODO LIST</h1>
-    <div class="entrada">
+    <form class="formulario">
         <input class="input" type="text" placeholder="Que deseas hacer...?">
-        <button class="boton-agregar">+</button>
-    </div>
+        <input class="boton-agregar" type="submit" value="+">
+    </form>
     <div class="container">
         <div class="item">
-            <input class="item-container" type="text" value="sport" disabled>
+            <div id="list" class="item-container"></div>
             <button class="boton-editar">Editar</button>
             <button class="boton-remover">Remover</button>
         </div>

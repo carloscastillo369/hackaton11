@@ -23,7 +23,7 @@ h1 {
 }
 
 
-.entrada {
+.formulario{
     width: 370px;
     margin: 0 auto;
     display: flex;
@@ -34,7 +34,8 @@ h1 {
 .input {
     width: 300px;
     height: 50px;
-    border-radius: 10px;
+    padding: 10px;
+
 }
 
 .boton-agregar {
@@ -51,25 +52,40 @@ h1 {
 .container {
     width: 400px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
 }
 
 .item-container {
-    width: 200px;
+    width: 250px;
     height: 30px;
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid black;
     border-radius: 8px;
+    display: inline-block;
+    background: white;
 }
 
 .boton-editar {
     width: 70px;
     height: 30px;
     border-radius: 8px;
+    display: inline-block;
 }
 
 .boton-remover {
     width: 70px;
     height: 30px;
     border-radius: 8px;
+    display: inline-block;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
 }
