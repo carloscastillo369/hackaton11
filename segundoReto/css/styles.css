@@ -34,14 +34,23 @@ h1 {
 .tecla {
     width: 80px;
     height: 80px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
 }
 
-.resultado {
-    width: 480px;
+#resultado {
+    width: 440px;
     height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
     border: 1px solid black;
-    margin: 10px;
     background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-size: 40px;
 }
 
 .teclado {
@@ -56,5 +65,8 @@ h1 {
 }
 
 .teclado-operacion{
-    width: 200px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
